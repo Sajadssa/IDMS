@@ -360,7 +360,10 @@ function setmessage(text,callback) {
 // return message;
 callback(message);
 }
-setmessage("hi dear!",displayconsole);
+setmessage("hi dear!",displayDom);
+
+
+
 
 
 
