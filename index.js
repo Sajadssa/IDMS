@@ -347,21 +347,21 @@ This is a multi-line comment
 //callback function=function passed as an argument function.//callback function=تابع به عنوان تابع آرگومان ارسال می شود.
 // به یک تابع اجازه می دهد تا تابع دیگری را فراخوانی کند
 // allows a function to invoke another function
-let message;
-function displayconsole(output) {
-console.log(output); 
-}
-function displayDom(output) {
- document.getElementById("myh1").innerHTML = output; 
-}
-function setmessage(text,callback) {
-   message = text; 
-//    displayconsole(message);
-// return message;
-callback(message);
-}
-setmessage("hi dear!",displayDom);
-setmessage("hi dear!",displayconsole);
+// let message;
+// function displayconsole(output) {
+// console.log(output); 
+// }
+// function displayDom(output) {
+//  document.getElementById("myh1").innerHTML = output; 
+// }
+// function setmessage(text,callback) {
+//    message = text; 
+// //    displayconsole(message);
+// // return message;
+// callback(message);
+// }
+// setmessage("hi dear!",displayDom);
+// setmessage("hi dear!",displayconsole);
 
 
 
