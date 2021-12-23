@@ -361,6 +361,8 @@ function setmessage(text,callback) {
 callback(message);
 }
 setmessage("hi dear!",displayDom);
+setmessage("hi dear!",displayconsole);
+
 
 
 
